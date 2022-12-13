@@ -32,3 +32,11 @@ At this moment I,m working as crowd marketer. And work in parallel with learning
 
 I have 8 years of experience working in bank system. My responsibility were:  records bank management, maintenance of clients, balance planning and collection of the cash desk of the branch and ATM, sale of coins and ingots, filling in the cash documentation etc.  Able to work among a larger group. 
 2 years have experience like crowd marketer. Main responsibility is placing external links for increased website traffic.
+
+## Languages:
+
+* Ukrainian - native
+
+* Russian - native
+
+* English - B1
