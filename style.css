@@ -136,6 +136,10 @@ h1, h2, h3, h4, h5, h6 {
         margin: 16px 0 0 50px;
     }
 
+    .header-img{
+        padding: 0px 0px 0px 50px;
+    }
+
     .main-container-block {
         display: block;
         display: flex;
@@ -156,6 +160,11 @@ h1, h2, h3, h4, h5, h6 {
 
     .main-left-title {
         border-bottom: 5px solid #ffa500;
+    }
+
+    .proc-img{
+        border-radius: 20px;
+        margin: 40px;
     }
 
     .list-info{
@@ -229,9 +238,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #ffa500;
     }
 
-    .footer-logo img{
-        width: 400px;
-    }
+
 
     .footer-text{
        padding: -20px;
