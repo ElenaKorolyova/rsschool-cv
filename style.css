@@ -93,33 +93,34 @@ h1, h2, h3, h4, h5, h6 {
     .header,
     .main,
     .footer{
+        max-width: 1000px;
         font-family: 'Martian Mono';
         font-size: 15px;
         font-weight:lighter;
         background-color:#fff;
-        max-width: 1000px;
     }
 
     .header{
         position: relative;
         display: block;
         height: 350px;
-        background-color: hwb(0 0% 100%);
-        text-transform: uppercase;
         font-weight: bold;
+        text-transform: uppercase;
+        background-color: hwb(0 0% 100%);
     }
 
     .header-name{
-        background-color:#ffa500;
         height: 100px;
+        background-color:#ffa500;
     }
+
     .header-nav-menu,
     .header-name-title,
     .job-title-text {
         display: flex;
         justify-content: flex-end;
-        list-style: none;
-        padding:0 20px 0 0;
+         padding:0 20px 0 0;
+         list-style: none;
     }
 
     .header-name-title{
@@ -127,9 +128,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .header-nav-menu{
-        background-color: ffa500;
         height: 50px;
         margin: -280px 0 0 0;
+        background-color: #ffa500;
     }
 
     .li-menu{
@@ -137,34 +138,33 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .header-img{
-        padding: 0px 0px 0px 50px;
+        padding: 0 0 0 50px;
     }
 
-    .main-container-block {
-        display: block;
+    .main-container-block { 
         display: flex;
     }
 
     .left-block{
         width: 400px;
-        padding: 20px 0 0 10px;
-        background-color: #000000;
-        color: #fff;
-        line-height: 30px;
         margin: 0 0 0 20px;
+        padding: 20px 0 0 10px;
+        line-height: 30px;
+        color: #fff;
+        background-color: #000000;
+    }
+
+ .main-left-title {
+        border-bottom: 5px solid #ffa500;
     }
 
     .education-year{
         padding: 5px 0 0 30px;
     }
 
-    .main-left-title {
-        border-bottom: 5px solid #ffa500;
-    }
-
-    .proc-img{
-        border-radius: 20px;
+    .proj-img{
         margin: 40px;
+        border-radius: 20px;
     }
 
     .list-info{
@@ -177,27 +177,27 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .right-block {
-        color: #000000;
         margin: 10px 20px 0 30px;
+        color: #000000;
     }
 
     .main-left-title,
     .main-right-title {
-        text-transform: uppercase;
-        font-size: 30px;
         margin: 0 0 30px 0;
         padding: 20px 0 20px 0;
+        font-size: 30px;
+        text-transform: uppercase;
     }
 
     .main-right-title {
-        border-bottom: 5px solid #000000;
         text-align:right;
+        border-bottom: 5px solid #000000;
     }
 
     .language{
-        font-weight: 500;
-        font-size: 25px;
         margin-left: 20px;
+        font-size: 25px;
+        font-weight: 500;
     }
 
     .lang-list{
@@ -209,12 +209,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .codewars-block {
-        background-color: #000000;
-        color: #fff;
         max-width: 100%;
         max-height: 120%;
-        line-height: 23px;
         padding: 20px;
+        line-height: 23px;
+        color: #fff;
+        background-color: #000000;
     }
 
     .code-lilac{
@@ -230,16 +230,18 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .footer{
-       text-align:center;
        padding: 20px 0 0 0;
+       text-align:center;
 
     }
     .footer-content{
         background-color: #ffa500;
     }
 
-
-
     .footer-text{
        padding: -20px;
+    }
+
+    .logo-git{
+        width: 50px;
     }
