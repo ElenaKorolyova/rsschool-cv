@@ -39,6 +39,7 @@ body {
     -webkit-text-size-adjust: 100%;
     margin: auto;
     background-color:rgb(36, 36, 36);
+    scroll-behavior: smooth;
 }
 
 input,
